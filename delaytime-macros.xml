@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2023-03-31T13:19:31" showfile="delay macros" />
+	<Macro index="0" name="Set Delaytime">
+		<Macroline index="0">
+			<text>SetVar $delaytime =("Set Delay Value?")</text>
+		</Macroline>
+	</Macro>
+    <Macro index="1" name="delay dimmer">
+		<Macroline index="0">
+			<text>PresetType Dimmer At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+    <Macro index="2" name="delay position">
+		<Macroline index="0">
+			<text>PresetType Position At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+    <Macro index="3" name="delay gobo">
+		<Macroline index="0">
+			<text>PresetType Gobo At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+    <Macro index="4" name="delay color">
+		<Macroline index="0">
+			<text>PresetType Color At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+    <Macro index="5" name="delay beam">
+		<Macroline index="0">
+			<text>PresetType Beam At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+     <Macro index="6" name="delay focus">
+		<Macroline index="0">
+			<text>PresetType Focus At Delay $delaytime</text>
+		</Macroline>
+	</Macro>
+</MA>
