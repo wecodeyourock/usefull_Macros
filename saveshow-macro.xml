@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2023-03-31T13:19:31" showfile="saveshow-macro" />
+	<Macro index="0" name="save show">
+		<Macroline index="0">
+			<text>Saveshow</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SelectDrive 1</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>SaveShow</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>SelectDrive 2</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>SaveShow</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>SelectDrive 3</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>SaveShow</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>SelectDrive 4</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>SaveShow</text>
+		</Macroline>
+	</Macro>
+</MA>
